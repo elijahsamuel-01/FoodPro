@@ -5,54 +5,35 @@ const Service = () => {
   return (
     <div className="mt-[120px] flex flex-col items-center">
       <div className="text-[36px] font-bold">Our Service</div>
-      <div className="flex gap-[30px]">
-        <div className="rounded-2xl w-[400px] mt-[40px] bg-[#39A88E] flex items-center justify-start h-[200px]">
-          <div className="mx-[30px] my-6 h-[30vh] ">
+
+      <div className="grid gap-[30px] grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="rounded-2xl bg-[#39A88E] p-6 h-[200px] flex flex-col justify-between">
+          <div>
             <div className="text-[rgb(47,49,63)] text-[27px]">Delivery</div>
-            <div className="w-[140px]">
-              Your favourite food, delivered fast.
+            <div className="text-sm">
+              Your favourite Groceries, delivered fast.
             </div>
-            <div
-              className="h-[100px] w-[150px] ml-[250px] bg-contain "
-              style={{
-                backgroundImage: `url(${bike})`,
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "centre",
-              }}
-            ></div>
           </div>
+
+          <img src={bike} className="w-[100px] self-end" alt="" />
         </div>
-        <div className="rounded-2xl w-[400px] mt-[40px] bg-[#39A88E] flex items-center justify-start  h-[200px]">
-          <div className="mx-[30px] my-6 ">
-            <div className="text-[rgb(47,49,63)] text-[27px]">Delivery</div>
-            <div className="w-[140px]">
-              Your favourite food, delivered fast.
-            </div>
-            <div
-              className="h-[110px] w-[150px] ml-[250px] bg-contain "
-              style={{
-                backgroundImage: `url(${vendor})`,
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "centre",
-              }}
-            ></div>
+
+        <div className="rounded-2xl bg-[#39A88E] p-6 h-[200px] flex flex-col justify-between">
+          <div>
+            <div className="text-[rgb(47,49,63)] text-[27px]">Employment</div>
+            <div className="text-sm">Job provided for many</div>
           </div>
+
+          <img src={vendor} className="w-[90px] self-end" alt="" />
         </div>
-        <div className="rounded-2xl w-[400px] mt-[40px] bg-[#39A88E] flex items-center justify-start  h-[200px]">
-          <div className="mx-[30px] my-6 ">
-            <div className="text-[rgb(47,49,63)] text-[27px]">Delivery</div>
-            <div className="w-[140px]">
-              Your favourite food, delivered fast.
-            </div>
-            <div
-              className="h-[100px] w-[150px] ml-[250px] bg-contain "
-              style={{
-                backgroundImage: `url(${bike})`,
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "centre",
-              }}
-            ></div>
+
+        <div className="rounded-2xl bg-[#39A88E] p-6 h-[200px] flex flex-col justify-between">
+          <div>
+            <div className="text-[rgb(47,49,63)] text-[27px]">Growth</div>
+            <div className="text-sm">Business Growth for our vendors</div>
           </div>
+
+          <img src={bike} className="w-[100px] self-end" alt="" />
         </div>
       </div>
     </div>

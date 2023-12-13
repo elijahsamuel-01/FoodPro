@@ -12,12 +12,12 @@ export const LandingPage = () => {
         style={{ backgroundImage: `url(${hero})` }}
       >
         <div className="bg-[rgba(0,0,0,0.7)] h-full">
-          <div className="flex   justify-center flex-col max-w-xl px-6 mx-autoflex-col items-start pt-32 text-white ">
+          <div className="flex md:ml-[30px]  justify-center flex-col max-w-xl px-6 mx-autoflex-col items-start pt-32 text-white ">
             <h1 className="text-4xl font-bold md:text-6xl">
-              Go wherever, whenever
+              Buy and Pay Later
             </h1>
             <p className="mt-5 text-xl md:text-2xl">
-              Bolt is the all-in-one mobility app. Get picked up by a top-rated
+              FoodFlex is the all-in-one Platform. Get picked up by a top-rated
               driver in minutes and enjoy a comfortable ride to wherever you’re
               going; or skip the traffic entirely on one of our industry-leading
               scooters.
