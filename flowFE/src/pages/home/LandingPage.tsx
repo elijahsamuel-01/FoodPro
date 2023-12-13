@@ -11,7 +11,7 @@ export const LandingPage = () => {
         className="h-[91vh] bg-gray-700 bg-no-repeat bg-center bg-cover"
         style={{ backgroundImage: `url(${hero})` }}
       >
-        <div className="bg-[rgba(0,0,0,0.5)] h-full">
+        <div className="bg-[rgba(0,0,0,0.7)] h-full">
           <div className="flex   justify-center flex-col max-w-xl px-6 mx-autoflex-col items-start pt-32 text-white ">
             <h1 className="text-4xl font-bold md:text-6xl">
               Go wherever, whenever
@@ -22,7 +22,7 @@ export const LandingPage = () => {
               going; or skip the traffic entirely on one of our industry-leading
               scooters.
             </p>
-            <button className="mt-10 rounded-3xl bg-[#32BB78] px-6 py-3 text-xl font-bold">
+            <button className="mt-10 rounded-3xl bg-[#39A88E] px-6 py-3 text-xl font-bold">
               Get Started
             </button>
           </div>

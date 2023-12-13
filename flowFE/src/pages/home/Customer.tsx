@@ -1,11 +1,12 @@
 import { FaCircleCheck } from "react-icons/fa6";
 import { TbWorld } from "react-icons/tb";
+import { FaPersonBiking } from "react-icons/fa6";
 
 const Customer = () => {
   return (
     <div className="mt-[200px] flex flex-row justify-center gap-[120px]">
       <div className="flex flex-col justify-center items-center  ">
-        <div className="text-[25px] mb-4 text-[green]">
+        <div className="text-[32px] mb-4 text-[#FF4500]">
           <FaCircleCheck />
         </div>
         <div className="text-[#2F313F] text-[25px] font-medium">
@@ -15,7 +16,7 @@ const Customer = () => {
       </div>
 
       <div className="flex flex-col justify-center items-center  ">
-        <div className="text-[25px] mb-4 text-[green]">
+        <div className="text-[32px] mb-4 text-[#FF4500]">
           <TbWorld />
         </div>
         <div className="text-[#2F313F] text-[25px] font-medium">
@@ -25,8 +26,8 @@ const Customer = () => {
       </div>
 
       <div className="flex flex-col justify-center items-center  ">
-        <div className="text-[25px] mb-4 text-[green]">
-          <FaCircleCheck />
+        <div className="text-[32px] mb-4 text-[#FF4500]">
+          <FaPersonBiking />
         </div>
         <div className="text-[#2F313F] text-[25px] font-medium">
           3.1+ million

@@ -1,4 +1,5 @@
 import React from "react";
+import map from "../../assets/world-map-optimized-6338bdae39fa9d215fb417b5845792a7.svg";
 
 const Propos = () => {
   return (
@@ -10,6 +11,14 @@ const Propos = () => {
         serves — including ride-hailing, shared cars, scooters, and food and
         grocery delivery.
       </div>
+      <div
+        className="h-[90vh] w-[90vw]  bg-contain "
+        style={{
+          backgroundImage: `url(${map})`,
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "centre",
+        }}
+      ></div>
     </div>
   );
 };

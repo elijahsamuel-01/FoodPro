@@ -9,19 +9,22 @@ const Feature1 = () => {
             className="text-[
   #2f313f] text-[48px] font-medium"
           >
-            Earn money with Bolt
+            Earn money with{" "}
+            <span className="text-[#FF4500] font-bold text-[50px]">
+              FoodFlex
+            </span>
           </div>
           <div className="flex gap-7">
-            <button className="h-[35px] w-[80px] rounded-3xl text-[white] bg-[#2f313f] items-center justify-center ">
+            <button className="h-[35px] w-[80px] rounded-3xl text-[black] bg-[#39A88E] items-center justify-center ">
               Driver
             </button>
-            <button className="h-[35px] w-[83px] text-[#2f313f] items-center justify-center border-solid border-2 border-[#C5CBD1] rounded-3xl">
+            <button className="h-[35px] w-[83px] text-[#2f313f] items-center justify-center border-solid border-2 border-[#39A88E] rounded-3xl">
               Courier
             </button>
-            <button className="h-[35px] w-auto text-[#2f313f] items-center justify-center border-solid border-2 border-[#C5CBD1] rounded-3xl px-3">
+            <button className="h-[35px] w-auto text-[#2f313f] items-center justify-center border-solid border-2 border-[#39A88E] rounded-3xl px-3">
               Restaurant or store owner
             </button>
-            <button className="h-[35px] w-auto text-[#2f313f] items-center justify-center border-solid border-2 border-[#C5CBD1] rounded-3xl  px-3">
+            <button className="h-[35px] w-auto text-[#2f313f] items-center justify-center border-solid border-2 border-[#39A88E] rounded-3xl  px-3">
               Fleet owner
             </button>
           </div>
@@ -37,7 +40,7 @@ const Feature1 = () => {
             </div>
 
             <div className="mt-[30px] flex flex-row gap-[8px]">
-              <div className="h-[25px] w-[25px] rounded-3xl bg-green-600 items-center justify-center align-middle text-white font-semibold pl-2 mt-[2px]">
+              <div className="h-[25px] w-[25px] rounded-3xl bg-[#FF4500] items-center justify-center align-middle text-white font-semibold pl-2 mt-[2px]">
                 1
               </div>
               <div className="flex flex-col w-[420px]">
@@ -51,7 +54,7 @@ const Feature1 = () => {
               </div>
             </div>
             <div className="mt-[10px] flex flex-row gap-[8px]">
-              <div className="h-[25px] w-[25px] rounded-3xl bg-green-600 items-center justify-center align-middle text-white font-semibold pl-2 mt-[2px]">
+              <div className="h-[25px] w-[25px] rounded-3xl bg-[#FF4500] items-center justify-center align-middle text-white font-semibold pl-2 mt-[2px]">
                 2
               </div>
               <div className="flex flex-col w-[420px]">
@@ -65,7 +68,7 @@ const Feature1 = () => {
               </div>
             </div>
             <div className="mt-[10px] flex flex-row gap-[8px]">
-              <div className="h-[25px] w-[25px] rounded-3xl bg-green-600 items-center justify-center align-middle text-white font-semibold pl-2 mt-[2px]">
+              <div className="h-[25px] w-[25px] rounded-3xl bg-[#FF4500] items-center justify-center align-middle text-white font-semibold pl-2 mt-[2px]">
                 3
               </div>
               <div className="flex flex-col w-[420px]">
@@ -78,7 +81,7 @@ const Feature1 = () => {
                 </div>
               </div>
             </div>
-            <button className="text-black font-semibold items-center justify-center px-8 py-3 rounded-3xl bg-[#F5F6F7] mt-4">
+            <button className="text-black font-semibold items-center justify-center px-8 py-3 rounded-3xl bg-[#39A88E] mt-4">
               Learn More
             </button>
           </div>
